@@ -18,7 +18,7 @@ public class ReadFile {
     	FileWriter writer = new FileWriter(tmpFile);
     
         StringBuilder sb = new StringBuilder();
-        final String arquivo = "//home//dev//Documentos//icconsig//log.txt";
+        final String arquivo = "//home//dev//Documentos//xxxx//log.txt";
      
 
         try (BufferedReader br = Files.newBufferedReader(Paths.get(arquivo))) {

@@ -5,7 +5,7 @@ public class Tools {
 	
 	public static String extractAndroidLogLine(String line) {
 		
-		final String token = "/com.xx.xx";
+		final String token = "/com.ic.consig";
 		final String points = ":";
 		
 		if (line != null && line.contains(token)) {
